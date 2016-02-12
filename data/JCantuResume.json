@@ -1,0 +1,111 @@
+{
+  "basics": {
+    "name": "Jeremy Cantu",
+    "label": "Consultant",
+    "picture": "",
+    "email": "jcantu521@gmail.com",
+    "phone": "(956)286-8386",
+    "website": "https://github.com/Jac21",
+    "summary": "Jeremy hails from  the border city of Laredo Texas, attending Texas A&M University soon after graduating from the United High School Engineering and Technology Magnet. Jeremy earned his degree in Computer Science, with a focus in Systems Engineering, and has an avid interest in all things development, including .NET, web development, and InfoSec.",
+    "location": {
+      "address": "11011 Domain Drive",
+      "postalCode": "TX 78758",
+      "city": "Austin",
+      "countryCode": "US",
+      "region": "Texas"
+    },
+    "profiles": []
+  },
+  "work": [
+    {
+      "company": "Sogeti USA",
+      "position": "IT Consultant",
+      "website": "https://us.sogeti.com/",
+      "startDate": "June, 2015",
+      "endDate": "Current",
+      "summary": "Microsoft-technology oriented software developer, responsible for client-site projects in varying domains, platforms and technologies.The profession involves the adaptation to said technologies at a quick pace, the adoption of a wide depth and breadth of technical knowledge, and the building of soft-skills such as business interaction and presentation. Currently involved in a Software Development Engineer in Test role at Dell, as well as leading the Summer 2015 graduating class as the \"Class President,\" elected by his fellow co-workers and peers.",
+      "highlights": [
+        "SDET role at Dell, took part in automated testing-suite creation for customer support applications using Selenium Webdriver, among other .NET and C# technologies "
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Texas A&M University",
+      "area": "Computer Science",
+      "studyType": "Bachelor of Science",
+      "startDate": "August, 2012",
+      "endDate": "May, 2015",
+      "gpa": "3.3",
+      "courses": [
+        "CSCE 221 - Data Structures and Algorithms",
+        "CSCE 315 - Programming Studio",
+        "CSCE 438 - Distributed Objects Programming",
+        "CSCE 482 - Senior Capstone",
+        "CSCE 489 - Reverse Engineering"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "3rd Place at the first annual TAMUHack",
+      "date": "10/15/2014",
+      "awarder": "TAMUHack",
+      "summary": "Earned third-place in the \"overall\"​ category in Texas A&M's first hackathon, won with a 3D, Oculus-Rift design oriented video game: http://challengepost.com/software/attack-on-oculus"
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": ".NET",
+      "level": "Intermediate",
+      "keywords": [
+        "C#",
+        "ASP.NET MVC 5",
+        "Windows Presentation Foundation"
+      ]
+    },
+    {
+      "name": "Web Development",
+      "level": "Intermediate",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Node.js"
+      ]
+    },
+    {
+      "name": "Security",
+      "level": "Intermediate",
+      "keywords": [
+        "OllyDbg",
+        "IDA Pro",
+        "Nmap",
+        "Wireshark"
+      ]
+    },
+    {
+      "name": "General Software Development",
+      "level": "Intermediate",
+      "keywords": [
+        "Git",
+        "GitHub",
+        "Team Foundation Server"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Read, write, and semi-fluency in speech"
+    }
+  ],
+  "interests": [],
+  "references": []
+}
