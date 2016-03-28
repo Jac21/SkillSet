@@ -30,6 +30,23 @@ var force = d3.layout.force()
     .on("tick", tick)           // runs the animation of the force layour
     .start();                   // starts the simulation
 
+// for varying link opacity
+var v = d3.scale.linear().range([0, 100]);
+
+v.domain([0, d3.max(links, function(d) { return d.value; })]);
+
+links.forEach(function(link) {
+    if (v(link.value) <= 25) {
+        link.type = "twofive";
+    } else if (v(link.value) <= 50 && v(link.value) > 25) {
+        link.type = "fivezero";
+    } else if (v(link.value) <= 75 && v(link.value) > 50) {
+        link.type = "sevenfive";
+    } else if (v(link.value) <= 100 && v(link.value) > 75) {
+        link.type = "onezerozero"
+    }
+});
+
 // set up the svg container
 var svg = d3.select("body").append("svg")
     .attr("width", width)
@@ -54,7 +71,7 @@ var path = svg.append("svg:g").selectAll("path")
     .data(force.links())
   .enter().append("svg:path")
 //    .attr("class", function(d) { return "link " + d.type; })
-    .attr("class", "link")
+    .attr("class", function(d) { return "link " + d.type; })
     .attr("marker-end", "url(#end)");
 
 // define the nodes

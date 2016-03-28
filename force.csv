@@ -1,14 +1,14 @@
 source,target,value
-.NET,C#,1.2
-.NET,WPF,1.3
-.NET,ASP.NET MVC 5,1.2
-HTML5,Web Development,0.2
-CSS,Web Development,0.5
-Javascript,Web Development,1.6
+.NET,C#,2.0
+.NET,WPF,1.0
+.NET,ASP.NET MVC 5,1.0
+HTML5,Web Development,2.0
+CSS,Web Development,1.5
+Javascript,Web Development,2.0
 Node.js,Web Development,2.0
-D3.js,Web Development,2.0
-AngularJS,Front-End Frameworks,2.0
-React,Front-End Frameworks,2.0
+D3.js,Web Development,1.5
+AngularJS,Front-End Frameworks,1.0
+React,Front-End Frameworks,1.0
 OllyDbg,Security,0.5
 IDA Pro,Security,0.5
 Nmap,Security,0.5
