@@ -7,6 +7,21 @@
 	  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	</head>
 	<body>
+
+		<!-- basic web form for json uploading and converting -->
+		<form id = "json-form">
+			<p>Submit your JSONResume here for CSV conversion:</p>
+			<input type = "file" id = "json-input">
+			<button type="submit" id = "json-input-button">Convert</button>
+		</form>
+		
+		<!-- basic web form for csv visualizing -->
+		<form id = "csv-form">
+			<p>Visualize your skillset with your newly-converted CSV file:</p>
+			<input type = "file" id = "csv-input">
+			<button type="submit" id = "csv-input-button">Visualize</button>
+		</form>
+
 		<script type="text/javascript" src = "lib/jquery-2.1.1.min.js"></script>
 		<script type="text/javascript" src = "converter.js"></script>
 		<script type="text/javascript" src = "lib/d3.min.js"></script>

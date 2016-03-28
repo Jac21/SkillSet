@@ -1,0 +1,18 @@
+source,target,value
+.NET,C#,2.0
+.NET,ASP.NET MVC 5,2.0
+.NET,Windows Presentation Foundation,2.0
+Web Development,HTML,2.0
+Web Development,CSS,2.0
+Web Development,JavaScript,2.0
+Web Development,Node.js,2.0
+Front-End Frameworks,AngularJS,1.0
+Front-End Frameworks,React,1.0
+General Software Development,Python,2.0
+General Software Development,Git,2.0
+General Software Development,GitHub,2.0
+General Software Development,Team Foundation Server,2.0
+Security,OllyDbg,2.0
+Security,IDA Pro,2.0
+Security,Nmap,2.0
+Security,Wireshark,2.0

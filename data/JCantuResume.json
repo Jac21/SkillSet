@@ -77,6 +77,24 @@
       ]
     },
     {
+      "name": "Front-End Frameworks",
+      "level": "Beginner",
+      "keywords": [
+        "AngularJS",
+        "React"
+      ]
+    },
+    {
+      "name": "General Software Development",
+      "level": "Intermediate",
+      "keywords": [
+        "Python",
+        "Git",
+        "GitHub",
+        "Team Foundation Server"
+      ]
+    },
+    {
       "name": "Security",
       "level": "Intermediate",
       "keywords": [
@@ -84,15 +102,6 @@
         "IDA Pro",
         "Nmap",
         "Wireshark"
-      ]
-    },
-    {
-      "name": "General Software Development",
-      "level": "Intermediate",
-      "keywords": [
-        "Git",
-        "GitHub",
-        "Team Foundation Server"
       ]
     }
   ],
