@@ -1,7 +1,7 @@
 SkillSet
 ==========
 
-Intuitive job-candidate skill visualization, taking advantage of D3.js and [JSONResume](https://jsonresume.org/).
+Intuitive job-candidate skill visualization, taking advantage of [D3.js](http://d3js.org/) and [JSONResume](https://jsonresume.org/).
 
 Demo:
 ------
