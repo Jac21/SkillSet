@@ -118,6 +118,7 @@ function forceLayoutVisualize(csvFileValue) {
     }
 
         function click() {
+            if (d3.event.defaultPrevented) return; // dragged (http://bl.ocks.org/mbostock/a84aeb78fea81e1ad806)
             d3.select(this).select("text").transition()
                 .duration(750)
                 .attr("x", 22)
