@@ -27,7 +27,7 @@ function forceLayoutVisualize(csvFileValue) {
         .links(links)               // sets links
         .size([width, height])      // sets using svg area vars
         .linkDistance(60)           // sets target distance between nodes
-        .charge(-300)               // sets the force between nodes
+        .charge(-450)               // sets the force between nodes
         .on("tick", tick)           // runs the animation of the force layour
         .start();                   // starts the simulation
 

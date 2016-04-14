@@ -18,4 +18,4 @@ TODO:
 
 Current UI:
 -----------
-![Imgur](http://i.imgur.com/1a2V2DM.png)
+![Imgur](http://i.imgur.com/l5zoOeg.png)
