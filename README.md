@@ -3,7 +3,7 @@ SkillSet
 
 Intuitive job-candidate skill visualization, taking advantage of [D3.js](http://d3js.org/) and [JSONResume](https://jsonresume.org/).
 
-Demo:
+Live site:
 ------
 https://jac21.github.io/SkillSet/
 
@@ -15,6 +15,14 @@ TODO:
 >- Flesh out projects-based viz, either appending to current force layout, or creating an entirely new one
 >- Tweak visual cues (~~link opacity for weaker skills~~, mouseover events to show more details)
 >- Allow link and picture additions to nodes
+
+To use on your site [(like so)](https://jac21.github.io/viz.html):
+----------------------------
+	1. Git clone using this repository's clone URL: https://github.com/Jac21/SkillSet.git 
+	2. The "dist" folder contains all you need to run and visualize: "index.html" where the render is displayed, "app.min.js" where the viz code is written, and "style.css" containing the necessary CSS for the visualization.
+	3. Simply replace the "mySkills.csv" file with your own personally generated one from the live site: https://jac21.github.io/SkillSet/ 
+	4. Done and done!
+
 
 Current UI:
 -----------
