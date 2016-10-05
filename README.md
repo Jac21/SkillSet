@@ -7,6 +7,10 @@ Live site:
 ------
 >- https://jac21.github.io/SkillSet/
 
+Live demo: 
+------
+>- https://jac21.github.io/viz.html
+
 TODO:
 ------
 >- ~~Flesh out D3 force layout graph structure~~
