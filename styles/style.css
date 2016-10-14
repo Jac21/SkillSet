@@ -1,3 +1,15 @@
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.body-text {
+  margin-bottom: 2em;
+}
+
 path.link {
   fill: none;
   stroke: #666;
