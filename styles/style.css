@@ -1,13 +1,18 @@
-h2 {
-  font-family: Arial, Helvetica, sans-serif;
+img {
+  width: 50%;
 }
 
-p {
+body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .body-text {
   margin-bottom: 2em;
+}
+
+#error-area {
+  font-size: 14px;
+  color: red;
 }
 
 path.link {
