@@ -4,11 +4,9 @@
 Intuitive job-candidate skill visualization, taking advantage of [D3.js](http://d3js.org/) and [JSONResume](https://jsonresume.org/).
 
 Live site:
-------
 >- https://jac21.github.io/SkillSet/
 
 Live demo: 
-------
 >- https://jac21.github.io/viz.html
 
 TODO:
