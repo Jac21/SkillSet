@@ -2,11 +2,13 @@
   "basics": {
     "name": "Jeremy Cantu",
     "label": "Software Developer",
-    "picture": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAMxAAAAJDVhY2UyNWU2LTMxYWUtNDIzYi1iYzUzLTM1YmQ2ODI1MGE2OA.jpg",
+    "picture":
+      "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAMxAAAAJDVhY2UyNWU2LTMxYWUtNDIzYi1iYzUzLTM1YmQ2ODI1MGE2OA.jpg",
     "email": "jcantu521@gmail.com",
     "phone": "(956)286-8386",
     "website": "https://jac21.github.io/",
-    "summary": "Jeremy hails from the border city of Laredo Texas, attending Texas A&M University soon after graduating from the United High School Engineering and Technology Magnet. Jeremy earned his degree in Computer Science, with a focus in Systems Engineering, and has an avid interest in all things development, including .NET, web development, and InfoSec.",
+    "summary":
+      "Jeremy hails from the border city of Laredo Texas, attending Texas A&M University soon after graduating from the United High School Engineering and Technology Magnet. Jeremy earned his degree in Computer Science, with a focus in Systems Engineering, and has an avid interest in .NET technologies and web development as whole.",
     "location": {
       "address": "11011 Domain Drive",
       "postalCode": "78758",
@@ -29,18 +31,32 @@
       "website": "https://us.sogeti.com/",
       "startDate": "6/8/2015",
       "endDate": "4/1/2016",
-      "summary": "Microsoft-technology oriented software developer, responsible for client-site projects in varying domains, platforms and technologies.The profession involves the adaptation to said technologies at a quick pace, the adoption of a wide depth and breadth of technical knowledge, and the building of soft-skills such as business interaction and presentation. Major accomplishments include a role as a Software Development Engineer in Test at Dell, as well as leading the Summer 2015 graduating class as the \"Class President,\" elected by his fellow co-workers and peers.",
+      "summary":
+        "Microsoft-technology oriented software developer, responsible for client-site projects in varying domains, platforms and technologies.The profession involves the adaptation to said technologies at a quick pace, the adoption of a wide depth and breadth of technical knowledge, and the building of soft-skills such as business interaction and presentation. Major accomplishments include a role as a Software Development Engineer in Test at Dell, as well as leading the Summer 2015 graduating class as the \"Class President,\" elected by his fellow co-workers and peers.",
       "highlights": [
         "SDET role at Dell, took part in automated testing-suite creation for customer support applications using Selenium Webdriver and Protractor.NET, among other .NET and C# technologies"
       ]
     },
     {
       "company": "Dell",
-      "position": "Software Developer",
+      "position": "Software Developer Senior Analyst",
       "website": "http://www.dell.com/",
       "startDate": "4/4/2016",
+      "endDate": "1/2/2017",
+      "summary":
+        "Software Development Engineer in Test, as part of the Dell Consumer Services \"Responsive Platform\" team. Responsible for automated test framework and suite creation for the whole of the application, utilizing C#, Selenium WebDriver, and SpecFlow, as well as monitoring and analysis using Splunk and Adobe Analytics.",
+      "highlights": [
+        "Highlights include my role as SDET lead, involving my close work with the team's Product Owner and Technical Project Manager. In addition, was involved in a subsequently patented voice interface application for a Dell.com \"hack day\" event"
+      ]
+    },
+    {
+      "company": "Advanced Solutions International",
+      "position": "Software Developer",
+      "website": "http://www.advsol.com",
+      "startDate": "1/3/2017",
       "endDate": "Present",
-      "summary": "",
+      "summary":
+        "Full-stack, .NET focused software developer in an Agile environment.",
       "highlights": []
     }
   ],
@@ -51,7 +67,8 @@
       "website": "http://tamuhack.com/",
       "startDate": "10/9/2015",
       "endDate": "10/10/2015",
-      "summary": "Performed staff and volunteer duties at the second-annual TAMUHack hackathon, in addition with being tasked as a judge for the resulting projects and aiding in award selections.",
+      "summary":
+        "Performed staff and volunteer duties at the second-annual TAMUHack hackathon, in addition with being tasked as a judge for the resulting projects and aiding in award selections.",
       "highlights": []
     }
   ],
@@ -77,7 +94,8 @@
       "title": "3rd Place at the first annual TAMUHack",
       "date": "10/25/2014",
       "awarder": "TAMUHack",
-      "summary": "Earned third-place in the \\\"overall\\\"​ category in Texas A&M's first hackathon with a 3D, Oculus-Rift design oriented video game. More information: http://devpost.com/software/attack-on-oculus"
+      "summary":
+        "Earned third-place in the \\\"overall\\\"​ category in Texas A&M's first hackathon with a 3D, Oculus-Rift design oriented video game. More information: http://devpost.com/software/attack-on-oculus"
     }
   ],
   "publications": [],
@@ -85,47 +103,32 @@
     {
       "name": ".NET",
       "level": "Intermediate",
-      "keywords": [
-        "C#",
-        "ASP.NET MVC 5",
-        "WPF"
-      ]
+      "keywords": ["C#", "ASP.NET MVC 5", "WebAPI"]
     },
     {
       "name": "Web Development",
       "level": "Intermediate",
-      "keywords": [
-        "HTML5",
-        "CSS",
-        "JavaScript",
-        "Node.js"
-      ]
+      "keywords": ["HTML5", "CSS3", "JavaScript", "Node.js"]
     },
     {
       "name": "Front-End Frameworks",
       "level": "Beginner",
-      "keywords": [
-        "AngularJS",
-        "React"
-      ]
+      "keywords": ["AngularJS", "Angular 2", "React"]
+    },
+    {
+      "name": "General Software Development",
+      "level": "Intermediate",
+      "keywords": ["Git", "GitHub", "Team Foundation Server"]
     },
     {
       "name": "Security",
       "level": "Intermediate",
-      "keywords": [
-        "OllyDbg",
-        "IDA Pro",
-        "Nmap",
-        "Wireshark"
-      ]
+      "keywords": ["OllyDbg", "IDA Pro", "Nmap", "Wireshark"]
     },
     {
-      "name:": "Testing",
+      "name": "Automated Testing",
       "level": "Intermediate",
-      "keywords": [
-        "Selenium",
-        "Protractor"
-      ]
+      "keywords": ["Selenium WebDriver", "Protractor", "SpecFlow"]
     }
   ],
   "languages": [

@@ -1,3 +1,20 @@
+img {
+  width: 50%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.body-text {
+  margin-bottom: 2em;
+}
+
+#error-area {
+  font-size: 14px;
+  color: red;
+}
+
 path.link {
   fill: none;
   stroke: #666;
@@ -5,19 +22,19 @@ path.link {
 }
 
 path.link.twofive {
-	opacity: 0.25;
+  opacity: 0.25;
 }
 
 path.link.fivezero {
-	opacity: 0.50;
+  opacity: 0.50;
 }
 
 path.link.sevenfive {
-	opacity: 0.75;
+  opacity: 0.75;
 }
 
 path.link.onezerozero {
-	opacity: 1.0;
+  opacity: 1.0;
 }
 
 circle {
@@ -28,6 +45,6 @@ circle {
 
 text {
   fill: #000;
-  font: 11px sans-serif;
+  font: 12px sans-serif;
   pointer-events: none;
 }
