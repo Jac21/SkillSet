@@ -102,7 +102,7 @@ function forceLayoutVisualize(csvFileValue) {
       .call(force.drag);
 
     // declare colo(u)r range
-    color = d3.scale.category20c();
+    var color = d3.scale.category20c();
 
     // add the nodes
     node
