@@ -1,5 +1,6 @@
 ![Imgur](http://i.imgur.com/SmBu4KV.png)
 
+[![CircleCI](https://circleci.com/gh/Jac21/SkillSet/tree/master.svg?style=shield)](https://circleci.com/gh/Jac21/SkillSet/tree/master)
 
 Intuitive job-candidate skill visualization, taking advantage of [D3.js](http://d3js.org/) and [JSONResume](https://jsonresume.org/).
 
