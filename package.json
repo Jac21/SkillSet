@@ -1,13 +1,12 @@
 {
   "name": "skillset",
   "version": "1.0.0",
-  "description":
-    "Intuitive job-candidate skill visualization, taking advantage of D3.js and JSONResume.",
+  "description": "Intuitive job-candidate skill visualization, taking advantage of D3.js and JSONResume.",
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
-    "webpack": "^4.0.0-beta.1",
-    "webpack-cli": "^2.0.6"
+    "webpack": "^4.0.0",
+    "webpack-cli": "^2.0.9"
   },
   "scripts": {
     "test": "test",
@@ -18,7 +17,12 @@
     "type": "git",
     "url": "git+https://github.com/Jac21/SkillSet.git"
   },
-  "keywords": ["d3.js", "resume", "JSONResume", "json"],
+  "keywords": [
+    "d3.js",
+    "resume",
+    "JSONResume",
+    "json"
+  ],
   "author": "Jeremy Cantu",
   "license": "MIT",
   "bugs": {
