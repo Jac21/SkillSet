@@ -1,6 +1,6 @@
 ![Imgur](http://i.imgur.com/SmBu4KV.png)
 
-[![CircleCI](https://circleci.com/gh/Jac21/SkillSet/tree/master.svg?style=shield)](https://circleci.com/gh/Jac21/SkillSet/tree/master)
+[![CircleCI](https://circleci.com/gh/Jac21/SkillSet/tree/master.svg?style=shield)](https://circleci.com/gh/Jac21/SkillSet/tree/master) [![donate](https://img.shields.io/badge/%24-Buy%20me%20a%20coffee-ff69b4.svg)](https://www.buymeacoffee.com/jac21)
 
 Intuitive job-candidate skill visualization, taking advantage of [D3.js](http://d3js.org/) and [JSONResume](https://jsonresume.org/).
 
