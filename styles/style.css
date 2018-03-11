@@ -1,13 +1,9 @@
 img {
-  width: 50%;
+  width: 40%;
 }
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.body-text {
-  margin-bottom: 2em;
+.content {
+  max-width: 30%
 }
 
 #error-area {

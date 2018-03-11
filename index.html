@@ -3,35 +3,39 @@
 
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
 	<title>SkillSet</title>
+	<link rel="stylesheet" type="text/css" href="styles/picnic.min.css">
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
 	<link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
-
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
 <body>
 
 	<img src="img/SkillSet.PNG" />
-	<p class="body-text">If you'd like to see an example in action, click
-		<a href="https://jac21.github.io/viz.html" target="_blank" rel="noopener noreferrer">here!</a>
-	</p>
-	<!-- basic web form for json uploading and converting -->
-	<form id="json-form">
-		<p>Submit your
-			<a href="https://jsonresume.org/" target="_blank">JSONResume</a> here for CSV conversion:</p>
-		<input type="file" id="json-input" required>
-		<button type="submit" id="json-input-button">Convert</button>
-	</form>
 
-	<!-- basic web form for csv visualizing -->
-	<form id="csv-form">
-		<p>Visualize your skillset with your newly-converted CSV file:</p>
-		<input type="file" id="csv-input" required>
-		<button type="submit" id="csv-input-button">Visualize</button>
-	</form>
+	<div class="visual content">
+		<p class="body-text">If you'd like to see an example in action, click
+			<a href="https://jac21.github.io/viz.html" target="_blank" rel="noopener noreferrer">here!</a>
+		</p>
+		<!-- basic web form for json uploading and converting -->
+		<form id="json-form">
+			<p>Submit your
+				<a href="https://jsonresume.org/" target="_blank">JSONResume</a> here for CSV conversion:</p>
+			<input type="file" id="json-input" required>
+			<button type="submit" id="json-input-button">Convert</button>
+		</form>
 
-	<p id="error-area"></p>
+		<!-- basic web form for csv visualizing -->
+		<form id="csv-form">
+			<p>Visualize your skillset with your newly-converted CSV file:</p>
+			<input type="file" id="csv-input" required>
+			<button type="submit" id="csv-input-button">Visualize</button>
+		</form>
+
+		<p id="error-area"></p>
+	</div>
 
 	<a href="https://github.com/Jac21/SkillSet" target="_blank" class="github-corner">
 		<svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;">
