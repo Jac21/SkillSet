@@ -1,9 +1,11 @@
 img {
   width: 40%;
+  padding-left: 1em;
 }
 
 .content {
-  max-width: 30%
+  max-width: 35%;
+  padding-left: 1em;
 }
 
 #error-area {
