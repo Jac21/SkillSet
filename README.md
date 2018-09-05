@@ -19,4 +19,4 @@ To use on your site [(like so)](https://jac21.github.io/viz.html):
 
 Example Screenshot:
 -----------
-![Imgur](http://i.imgur.com/l5zoOeg.png)
+![Example](https://raw.githubusercontent.com/Jac21/SkillSet/master/img/screencap.png)
