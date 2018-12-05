@@ -1,4 +1,4 @@
-![Imgur](http://i.imgur.com/SmBu4KV.png)
+![Logo](https://raw.githubusercontent.com/Jac21/SkillSet/master/assets/img/SkillSet.PNG)
 
 [![CircleCI](https://circleci.com/gh/Jac21/SkillSet/tree/master.svg?style=shield)](https://circleci.com/gh/Jac21/SkillSet/tree/master) [![donate](https://img.shields.io/badge/%24-Buy%20me%20a%20coffee-ff69b4.svg)](https://www.buymeacoffee.com/jac21)
 
@@ -19,4 +19,4 @@ To use on your site [(like so)](https://jac21.github.io/viz.html):
 
 Example Screenshot:
 -----------
-![Example](https://raw.githubusercontent.com/Jac21/SkillSet/master/img/screencap.png)
+![Example](https://raw.githubusercontent.com/Jac21/SkillSet/master/assets/img/screencap.png)
