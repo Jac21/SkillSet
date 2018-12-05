@@ -1,18 +1,22 @@
 import * as d3 from "./lib/d3.min";
 
-d3.csv("mySkills.csv", function(error, links) {
+d3.csv("mySkills.csv", function (error, links) {
   // contain data for nodes
   var nodes = {};
 
   // Compute the distinct nodes from the links.
-  links.forEach(function(link) {
+  links.forEach(function (link) {
     link.source =
-      nodes[link.source] || (nodes[link.source] = { name: link.source });
+      nodes[link.source] || (nodes[link.source] = {
+        name: link.source
+      });
     // if link.source does not equal any of the nodes values, then
     // create a new element in the nodes object with the name of the link.source
     // value being considered
     link.target =
-      nodes[link.target] || (nodes[link.target] = { name: link.target });
+      nodes[link.target] || (nodes[link.target] = {
+        name: link.target
+      });
     link.value = +link.value;
   });
 
@@ -36,12 +40,12 @@ d3.csv("mySkills.csv", function(error, links) {
 
   v.domain([
     0,
-    d3.max(links, function(d) {
+    d3.max(links, function (d) {
       return d.value;
     })
   ]);
 
-  links.forEach(function(link) {
+  links.forEach(function (link) {
     if (v(link.value) <= 25) {
       link.type = "twofive";
     } else if (v(link.value) <= 50 && v(link.value) > 25) {
@@ -85,7 +89,7 @@ d3.csv("mySkills.csv", function(error, links) {
     .enter()
     .append("svg:path")
     //    .attr("class", function(d) { return "link " + d.type; })
-    .attr("class", function(d) {
+    .attr("class", function (d) {
       return "link " + d.type;
     })
     .attr("marker-end", "url(#end)");
@@ -108,7 +112,7 @@ d3.csv("mySkills.csv", function(error, links) {
   node
     .append("circle")
     .attr("r", 5)
-    .style("fill", function(d) {
+    .style("fill", function (d) {
       return color(d.name);
     });
 
@@ -117,13 +121,13 @@ d3.csv("mySkills.csv", function(error, links) {
     .append("text")
     .attr("x", 12)
     .attr("dy", ".35em")
-    .text(function(d) {
+    .text(function (d) {
       return d.name;
     });
 
   // add the curvy lines
   function tick() {
-    path.attr("d", function(d) {
+    path.attr("d", function (d) {
       var dx = d.target.x - d.source.x,
         dy = d.target.y - d.source.y,
         dr = Math.sqrt(dx * dx + dy * dy);
@@ -143,7 +147,7 @@ d3.csv("mySkills.csv", function(error, links) {
       );
     });
 
-    node.attr("transform", function(d) {
+    node.attr("transform", function (d) {
       return "translate(" + d.x + "," + d.y + ")";
     });
   }

@@ -1,31 +1,22 @@
 // base csv string object
-var csv = "source,target,value";
-
-// user has uploaded json file and clicked on submit button
-var submitButton = document.getElementById("json-input-button");
-submitButton.addEventListener("click", convertJson, false);
-
-// user has uploaded converted csv file and clicked on submit button
-var csvInputButton = document.getElementById("csv-input-button");
-csvInputButton.addEventListener("click", visualizeCsv, false);
+let csv = "source,target,value";
 
 // error area declaration
-var errorArea = document.getElementById("error-area");
+let errorArea = document.getElementById("error-area");
 
 // convert JSONResume file input to csv file, download to user's machine
-function convertJson(e) {
+const convertJson = function (e) {
   e.preventDefault();
 
   // grab file value, create object URL to use in getJSON call
-  var jsonInput = document.getElementById("json-input");
-  var jsonFileValue = jsonInput.files[0];
-  var jsonFile = window.URL.createObjectURL(jsonFileValue);
+  let jsonFileValue = document.getElementById("json-input").files[0];
+  let jsonFile = window.URL.createObjectURL(jsonFileValue);
 
   // if browser supports fetch api
   if (self.fetch) {
     fetch(jsonFile)
-      .then(function(response) {
-        return response.json().then(function(json) {
+      .then(function (response) {
+        return response.json().then(function (json) {
           // iterate through json resume skill section
           for (var i = 0; i < json.skills.length; i++) {
             // iterate through keywords sub-section, append values to csv
@@ -46,7 +37,7 @@ function convertJson(e) {
           downloadCsv(csv);
         });
       })
-      .catch(function(error) {
+      .catch(function (error) {
         errorArea.innerHTML =
           "<strong>There has been a problem with your fetch operation: " +
           error.message +
@@ -59,22 +50,32 @@ function convertJson(e) {
 }
 
 // create csv object URL from file, call D3
-function visualizeCsv(e) {
+const visualizeCsv = function (e) {
   e.preventDefault();
 
-  var csvInput = document.getElementById("csv-input");
-  var csvFileValue = csvInput.files[0];
+  var csvFileValue = document.getElementById("csv-input").files[0];
   var csvFile = window.URL.createObjectURL(csvFileValue);
 
   forceLayoutVisualize(csvFile);
 }
 
 /* 
+	Event Handlers
+*/
+
+// user has uploaded json file and clicked on submit button
+document.getElementById("json-input-button").addEventListener("click", convertJson, false);
+
+// user has uploaded converted csv file and clicked on submit button
+document.getElementById("csv-input-button").addEventListener("click", visualizeCsv, false);
+
+
+/* 
 	Helper Functions
 */
 
 // set skill value numeric value from json value
-function setSkillValue(level) {
+const setSkillValue = function (level) {
   var skillLevelValue = "0";
 
   if (level === "Beginner") {
@@ -89,7 +90,7 @@ function setSkillValue(level) {
 }
 
 // downloads csv-converted file to local machine
-function downloadCsv(csvString) {
+const downloadCsv = function (csvString) {
   var a = document.createElement("a");
   a.href = "data:attachment/csv," + encodeURIComponent(csvString);
   a.target = "_blank";
