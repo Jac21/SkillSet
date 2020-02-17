@@ -1,5 +1,6 @@
 ![Logo](https://raw.githubusercontent.com/Jac21/SkillSet/master/assets/img/SkillSet.PNG)
 
+[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 [![CircleCI](https://circleci.com/gh/Jac21/SkillSet/tree/master.svg?style=shield)](https://circleci.com/gh/Jac21/SkillSet/tree/master) [![donate](https://img.shields.io/badge/%24-Buy%20me%20a%20coffee-ff69b4.svg)](https://www.buymeacoffee.com/jac21)
 
 Intuitive job-candidate skill visualization, taking advantage of [D3.js](http://d3js.org/) and [JSONResume](https://jsonresume.org/).
