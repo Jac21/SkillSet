@@ -5,13 +5,15 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
+    "http-server": "^0.12.1",
     "webpack": "^4.41.6",
     "webpack-cli": "^3.3.11"
   },
   "scripts": {
     "test": "test",
     "dev": "webpack --mode development",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "serve": "http-server"
   },
   "repository": {
     "type": "git",
