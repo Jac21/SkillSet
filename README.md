@@ -21,3 +21,6 @@ To use on your site [(like so)](https://jac21.github.io/viz.html):
 Example Screenshot:
 -----------
 ![Example](https://raw.githubusercontent.com/Jac21/SkillSet/master/assets/img/screencap.png)
+
+[React Version](https://github.com/romain325/ReactSkillSet)
+-----------
