@@ -11,6 +11,9 @@ Live site:
 Live demo: 
 >- https://jac21.github.io/viz.html
 
+React wrapper component created by [romain325](https://github.com/romain325): 
+>- https://github.com/romain325/ReactSkillSet
+
 To use on your site [(like so)](https://jac21.github.io/viz.html):
 ----------------------------
 >- Clone using this repository's clone URL (or just download it straight): https://github.com/Jac21/SkillSet.git 
@@ -21,6 +24,3 @@ To use on your site [(like so)](https://jac21.github.io/viz.html):
 Example Screenshot:
 -----------
 ![Example](https://raw.githubusercontent.com/Jac21/SkillSet/master/assets/img/screencap.png)
-
-[React Version](https://github.com/romain325/ReactSkillSet)
------------
