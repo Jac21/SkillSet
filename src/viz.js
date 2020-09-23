@@ -20,8 +20,8 @@ const forceLayoutVisualize = function (csv) {
     });
 
     // set svg area
-    var width = 960,
-      height = 700;
+    var width = 1024,
+      height = 768;
 
     // use d3 force function
     var force = d3.forceSimulation(Object.values(nodes))
@@ -104,7 +104,6 @@ const forceLayoutVisualize = function (csv) {
     }
 
     function dragged(d) {
-      console.log(d);
       d.subject.fx = d.x;
       d.subject.fy = d.y;
     }
@@ -142,8 +141,8 @@ const forceLayoutVisualize = function (csv) {
     // add the text
     node
       .append("text")
-      .attr("x", 12)
-      .attr("dy", ".35em")
+      .attr("x", 14)
+      .attr("dy", ".45em")
       .text(function (d) {
         return d.name;
       });
