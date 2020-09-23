@@ -1,4 +1,3 @@
-
 // base csv string object
 let csv = "source,target,value";
 

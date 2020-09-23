@@ -20,18 +20,18 @@ const forceLayoutVisualize = function (csv) {
     });
 
     // set svg area
-    var width =  960 ,
-      height = 700 ;
+    var width = 960,
+      height = 700;
 
     // use d3 force function
     var force = d3.forceSimulation(Object.values(nodes))
       //.nodes(Object.values(nodes)) // sets layout to array of nodes
-      .force("link", d3.forceLink(links) 
-                        .id((d,i) => {return i})    
-                        .distance(60)
-                        .strength(2.5))
+      .force("link", d3.forceLink(links)
+        .id((d, i) => { return i })
+        .distance(60)
+        .strength(2.5))
       .force("charge", d3.forceManyBody())
-      .force("center", d3.forceCenter(width/2, height/2))
+      .force("center", d3.forceCenter(width / 2, height / 2))
       .on("tick", tick) // runs the animation of the force layout
 
     // for varying link opacity
@@ -94,26 +94,26 @@ const forceLayoutVisualize = function (csv) {
       .attr("marker-end", "url(#end)");
 
 
-      function dragStart(d) {
-        if(!d.active){
-          force.alphaTarget(0.3).restart();
-        }
-          d.subject.fx = d.subject.x;
-          d.subject.fy = d.subject.y;
-        
+    function dragStart(d) {
+      if (!d.active) {
+        force.alphaTarget(0.3).restart();
       }
-      
-      function dragged(d) {
-        console.log(d);
-        d.subject.fx = d.x;
-        d.subject.fy = d.y;
-      }
+      d.subject.fx = d.subject.x;
+      d.subject.fy = d.subject.y;
 
-      function dragEnd(d) {
-        if(!d.active) force.alphaTarget(0);
-        d.subject.fx = null;
-        d.subject.fy = null;
-      }
+    }
+
+    function dragged(d) {
+      console.log(d);
+      d.subject.fx = d.x;
+      d.subject.fy = d.y;
+    }
+
+    function dragEnd(d) {
+      if (!d.active) force.alphaTarget(0);
+      d.subject.fx = null;
+      d.subject.fy = null;
+    }
 
     // define the nodes
     var node = svg
@@ -123,12 +123,12 @@ const forceLayoutVisualize = function (csv) {
       .append("g")
       .attr("class", "node")
       .call(d3.drag()
-                .on("start", (d) => dragStart(d))
-                .on("drag", (d) => dragged(d))
-                .on("end", (d) => dragEnd(d)))
+        .on("start", (d) => dragStart(d))
+        .on("drag", (d) => dragged(d))
+        .on("end", (d) => dragEnd(d)))
       .on("click", click) // call click function
       .on("dblclick", dblclick); // call dblclick function
-      
+
     var color = d3.scaleOrdinal(d3.schemeCategory10);
 
     // add the nodes
