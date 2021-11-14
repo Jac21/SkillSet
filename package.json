@@ -29,5 +29,8 @@
   "bugs": {
     "url": "https://github.com/Jac21/SkillSet/issues"
   },
-  "homepage": "https://github.com/Jac21/SkillSet#readme"
+  "homepage": "https://github.com/Jac21/SkillSet#readme",
+  "dependencies": {
+    "d3": "^6.1.1"
+  }
 }
