@@ -14,13 +14,6 @@ Live demo:
 React wrapper component created by [romain325](https://github.com/romain325): 
 >- https://github.com/romain325/ReactSkillSet
 
-To use on your site [(like so)](https://jac21.github.io/viz.html):
-----------------------------
->- Clone using this repository's clone URL (or just download it straight): https://github.com/Jac21/SkillSet.git 
->- The "dist" folder contains all you need to run and visualize: "index.html" is where the render is displayed, "main.js" is viz code bundle, and "style.css" containing the necessary CSS for the visualization.
->- Simply replace the "mySkills.csv" file with your own personally generated one from the live site: https://jac21.github.io/SkillSet/ 
->- Done and done!
-
 Example Screenshot:
 -----------
 ![Example](https://raw.githubusercontent.com/Jac21/SkillSet/master/assets/img/screencap.png)
