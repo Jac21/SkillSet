@@ -30,11 +30,12 @@ const convertJson = function (e) {
                 setSkillValue(json.skills[i].level);
             }
           }
-          // clear error area
+          // clear error area and visualize
           errorArea.innerHTML = "";
 
-          // download
-          downloadCsv(csv);
+          forceLayoutVisualize(
+            "data:attachment/csv," + encodeURIComponent(csv)
+          );
         });
       })
       .catch(function (error) {
@@ -47,28 +48,16 @@ const convertJson = function (e) {
     errorArea.innerHTML =
       "<strong> Your browser does not support the fetch API! Please try this once more in Chrome or Firefox.</strong>";
   }
-}
-
-// create csv object URL from file, call D3
-const visualizeCsv = function (e) {
-  e.preventDefault();
-
-  var csvFileValue = document.getElementById("csv-input").files[0];
-  var csvFile = window.URL.createObjectURL(csvFileValue);
-
-  forceLayoutVisualize(csvFile);
-}
+};
 
 /* 
 	Event Handlers
 */
 
 // user has uploaded json file and clicked on submit button
-document.getElementById("json-input-button").addEventListener("click", convertJson, false);
-
-// user has uploaded converted csv file and clicked on submit button
-document.getElementById("csv-input-button").addEventListener("click", visualizeCsv, false);
-
+document
+  .getElementById("json-input-button")
+  .addEventListener("click", convertJson, false);
 
 /* 
 	Helper Functions
@@ -87,15 +76,4 @@ const setSkillValue = function (level) {
   }
 
   return skillLevelValue;
-}
-
-// downloads csv-converted file to local machine
-const downloadCsv = function (csvString) {
-  var a = document.createElement("a");
-  a.href = "data:attachment/csv," + encodeURIComponent(csvString);
-  a.target = "_blank";
-  a.download = "mySkills.csv";
-
-  document.body.appendChild(a);
-  a.click();
-}
+};
