@@ -5,7 +5,7 @@
   "main": "index.js",
   "devDependencies": {
     "http-server": "^14.1.1",
-    "webpack": "^5.89.0",
+    "webpack": "^5.91.0",
     "webpack-cli": "^5.1.4"
   },
   "scripts": {
@@ -31,6 +31,6 @@
   },
   "homepage": "https://github.com/Jac21/SkillSet#readme",
   "dependencies": {
-    "d3": "^7.8.5"
+    "d3": "^7.9.0"
   }
 }
