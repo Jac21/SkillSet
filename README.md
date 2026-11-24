@@ -4,7 +4,6 @@
 
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 ![build workflow](https://github.com/Jac21/SkillSet/actions/workflows/build.yml/badge.svg)
-[![donate](https://img.shields.io/badge/%24-Buy%20me%20a%20coffee-ff69b4.svg)](https://www.buymeacoffee.com/jac21)
 
 SkillSet is a lightweight front-end demo for turning a `JSONResume` skills section into an interactive D3 force graph. Instead of presenting skills as a flat list, it creates a visual map of categories and keywords that is easier to demo, discuss, and explore.
 
